@@ -1,0 +1,21 @@
+<div class="container mt-5">
+  <div class="row d-flex">
+    <div class="col-3 p-2 myNav">
+      <h2 class="text-white">Menu</h2>
+      <ul class="nav flex-column ">
+        <li class="nav-item">
+          <a class="nav-link active" routerLink="">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/typography">Typography</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"  routerLink="/button">Button</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-9">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

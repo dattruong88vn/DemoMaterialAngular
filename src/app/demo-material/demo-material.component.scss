@@ -1,0 +1,16 @@
+.myNav {
+  background-color: rgba($color: transparent, $alpha:0.2);
+  ul {
+    li {
+      a {
+        color: white;
+        text-decoration: none;
+        &:active {
+          border: 1px solid white;
+        }
+      }
+    }
+  }
+}
+
+
